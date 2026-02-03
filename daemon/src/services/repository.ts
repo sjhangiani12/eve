@@ -21,7 +21,11 @@ export class RepositoryService {
       id: uuid(),
       name: request.name,
       rootPath: request.rootPath,
-      config: request.config || {},
+      config: {
+        portBase: 3000,
+        portIncrement: 10,
+        ...request.config,
+      },
       createdAt: now,
       updatedAt: now,
     };
