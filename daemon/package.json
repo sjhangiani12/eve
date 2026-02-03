@@ -4,6 +4,9 @@
   "description": "Eve daemon - workspace orchestration for Claude Code",
   "type": "module",
   "main": "dist/index.js",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "node-pty"]
+  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",

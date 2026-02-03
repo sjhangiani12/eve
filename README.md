@@ -32,8 +32,8 @@ Mobile-first workspace orchestration for Claude Code. Run isolated Claude Code i
 
 ```bash
 cd daemon
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 The daemon runs on port 4778 by default.
