@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A25058CCFC7B0DF667A23C6 /* Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F76637D31CC7DF0AA377A /* Workspace.swift */; };
+		4E091333EB2F01494C89175B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9C2CFAB6B2AA166B28D69 /* DashboardView.swift */; };
+		50A88FDE8BB95C0671256E7F /* EveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB72B47D463DC25C404592A /* EveApp.swift */; };
+		5E4DD110855D1C652CB6283D /* NewWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4500C32186BADAEC0AC8469 /* NewWorkspaceView.swift */; };
+		704374E3D59D4D1F0F30E090 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEBFF996D32A031A35EFFA4 /* Repository.swift */; };
+		7DDFC085234F99BF085BE1D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACF2E13499028BADDFD677 /* ContentView.swift */; };
+		B489FEF6E55C689654EE9132 /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2FAB180EA1B73A84FAF204 /* WebSocketService.swift */; };
+		F186A595ECAF73513D4D3350 /* WorkspaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9F0F7FABC1772D59BCE45 /* WorkspaceDetailView.swift */; };
+		F7FFAB14A769C33E67B77756 /* WebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C5DA9A9834EB05F30B1FA1 /* WebSocketMessage.swift */; };
+		FA74D65B2E8488D1095146B6 /* EveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943B47D6AFF56055B1F64885 /* EveAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6683B00E9585877AD31DCD80 /* Eve.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Eve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB9F0F7FABC1772D59BCE45 /* WorkspaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceDetailView.swift; sourceTree = "<group>"; };
+		943B47D6AFF56055B1F64885 /* EveAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveAPI.swift; sourceTree = "<group>"; };
+		963F76637D31CC7DF0AA377A /* Workspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workspace.swift; sourceTree = "<group>"; };
+		9CACF2E13499028BADDFD677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4500C32186BADAEC0AC8469 /* NewWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkspaceView.swift; sourceTree = "<group>"; };
+		BEA9C2CFAB6B2AA166B28D69 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		CFB72B47D463DC25C404592A /* EveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveApp.swift; sourceTree = "<group>"; };
+		D4C5DA9A9834EB05F30B1FA1 /* WebSocketMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketMessage.swift; sourceTree = "<group>"; };
+		DF2FAB180EA1B73A84FAF204 /* WebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
+		FDEBFF996D32A031A35EFFA4 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		14AE4F71C127D57DF9ED1FCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEA9C2CFAB6B2AA166B28D69 /* DashboardView.swift */,
+				B4500C32186BADAEC0AC8469 /* NewWorkspaceView.swift */,
+				6CB9F0F7FABC1772D59BCE45 /* WorkspaceDetailView.swift */,
+				913A53700EF8EF29241CCF65 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		395769AA8681E630B4F6EDF9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				943B47D6AFF56055B1F64885 /* EveAPI.swift */,
+				DF2FAB180EA1B73A84FAF204 /* WebSocketService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		50B0E73CCB405E7092B5334E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDEBFF996D32A031A35EFFA4 /* Repository.swift */,
+				D4C5DA9A9834EB05F30B1FA1 /* WebSocketMessage.swift */,
+				963F76637D31CC7DF0AA377A /* Workspace.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55BBE70507C6798D3B9896A1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9CACF2E13499028BADDFD677 /* ContentView.swift */,
+				CFB72B47D463DC25C404592A /* EveApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		85C30AF907380ECEACA90D90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6683B00E9585877AD31DCD80 /* Eve.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		913A53700EF8EF29241CCF65 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CD2DFFB295FFA4ADC2CCD745 = {
+			isa = PBXGroup;
+			children = (
+				FE9F660DC23EC2379AE40693 /* Sources */,
+				85C30AF907380ECEACA90D90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9F660DC23EC2379AE40693 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				55BBE70507C6798D3B9896A1 /* App */,
+				50B0E73CCB405E7092B5334E /* Models */,
+				395769AA8681E630B4F6EDF9 /* Services */,
+				14AE4F71C127D57DF9ED1FCB /* Views */,
+			);
+			name = Sources;
+			path = Eve/Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3138C700D47D25CDD28AD4E6 /* Eve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74503E0658E59B89F2EE13E6 /* Build configuration list for PBXNativeTarget "Eve" */;
+			buildPhases = (
+				DD9A995FB94334E3AC78A86E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eve;
+			packageProductDependencies = (
+			);
+			productName = Eve;
+			productReference = 6683B00E9585877AD31DCD80 /* Eve.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6F583CC21029A364D69D68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3138C700D47D25CDD28AD4E6 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E5B55C303630590FB17C03D8 /* Build configuration list for PBXProject "Eve" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CD2DFFB295FFA4ADC2CCD745;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3138C700D47D25CDD28AD4E6 /* Eve */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9A995FB94334E3AC78A86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDFC085234F99BF085BE1D9 /* ContentView.swift in Sources */,
+				4E091333EB2F01494C89175B /* DashboardView.swift in Sources */,
+				FA74D65B2E8488D1095146B6 /* EveAPI.swift in Sources */,
+				50A88FDE8BB95C0671256E7F /* EveApp.swift in Sources */,
+				5E4DD110855D1C652CB6283D /* NewWorkspaceView.swift in Sources */,
+				704374E3D59D4D1F0F30E090 /* Repository.swift in Sources */,
+				F7FFAB14A769C33E67B77756 /* WebSocketMessage.swift in Sources */,
+				B489FEF6E55C689654EE9132 /* WebSocketService.swift in Sources */,
+				3A25058CCFC7B0DF667A23C6 /* Workspace.swift in Sources */,
+				F186A595ECAF73513D4D3350 /* WorkspaceDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E1A47F78C5428B57BFFBA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		636C9317D619DBA629EBEAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D44CC597146738DC0454647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Eve;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Eve needs to connect to your local Eve daemon server.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eve.app;
+				PRODUCT_NAME = Eve;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1108A96E84BD473F0F2DA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Eve;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Eve needs to connect to your local Eve daemon server.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eve.app;
+				PRODUCT_NAME = Eve;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74503E0658E59B89F2EE13E6 /* Build configuration list for PBXNativeTarget "Eve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D44CC597146738DC0454647 /* Debug */,
+				C1108A96E84BD473F0F2DA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5B55C303630590FB17C03D8 /* Build configuration list for PBXProject "Eve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636C9317D619DBA629EBEAB9 /* Debug */,
+				5E1A47F78C5428B57BFFBA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6F583CC21029A364D69D68C /* Project object */;
+}
