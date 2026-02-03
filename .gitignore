@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.js.map
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# iOS
+ios/Eve.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Eve.xcodeproj/xcuserdata/
+ios/*.xcuserstate
+ios/DerivedData/
+ios/.build/
+
+# Eve data (local only)
+# ~/.eve/ is where data lives, not in repo
